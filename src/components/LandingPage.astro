@@ -18,7 +18,7 @@ const contactLabels = {
 }[locale];
 ---
 <BaseLayout title={home.seo.title} description={home.seo.description} locale={locale} skipLabel={ui.skip} indexable>
-  <div class="landing-topline" aria-hidden="true"></div>
+  <div class="preview-bar"><span>{ui.preview}</span><span>{ui.previewNote}</span></div>
   <Header ui={ui} locale={locale} landing />
   <main class="landing" id="contenido" tabindex="-1">
     <section class="hero" id="inicio" aria-labelledby="hero-title">
