@@ -46,6 +46,8 @@ nav a:hover, .text-link:hover { color: var(--olive); text-decoration: underline;
 .mobile-nav { display: none; }
 .language-nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 15px; flex-basis: 100%; }
 .language-nav a[aria-current="page"] { font-weight: 600; text-decoration: underline; }
+.language-nav a { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; }
+.language-nav img { width: 27px; height: 18px; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px #292c2620; }
 .site-header { flex-wrap: wrap; }
 .hero { display: grid; grid-template-columns: 1fr 1.07fr; gap: 0 3.5vw; padding: 36px var(--gutter) 0; }
 .hero-copy { padding: 20px 0 40px; align-self: center; }
