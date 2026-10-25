@@ -70,10 +70,10 @@ nav a:hover, .text-link:hover { color: var(--olive); text-decoration: underline;
 .hero-foot { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; gap: 18px; border-bottom: 1px solid var(--line); padding: 26px 0 18px; margin-top: 18px; font-size: 12px; color: var(--muted); }
 .hero-foot a { text-decoration: none; padding-block: 10px; }
 .hero-foot a span { margin-left: 15px; }
-.hero-contact { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 0 28px; padding: 8px 0; margin-top: 20px; border-top: 1px solid var(--line); }
+.hero-contact { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: flex-start; gap: 0; padding: 8px 0; margin-top: 20px; border-top: 1px solid var(--line); }
 .hero-contact a { display: inline-flex; align-items: center; min-height: 44px; font-size: 14px; line-height: 1.5; color: var(--muted); overflow-wrap: anywhere; text-decoration: none; }
 .hero-contact a:hover { color: var(--olive); text-decoration: underline; }
-@media (max-width: 700px) { .hero-contact { column-gap: 20px; margin-top: 16px; } }
+@media (max-width: 700px) { .hero-contact { margin-top: 16px; } }
 .section-wrap { padding: var(--section-space) max(var(--gutter), calc((100vw - 1210px) / 2)); }
 .sessions { display: grid; grid-template-columns: 1fr 1fr; gap: 46px 9vw; }
 .sessions-intro > p:not(.section-label), .method-intro p, .about-copy > p:not(.section-label), .process-heading > p, .contact-copy > p:not(.section-label) { font-size: 16px; color: var(--muted); max-width: 53ch; }
