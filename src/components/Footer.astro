@@ -1,5 +1,10 @@
+---
+import type { HomeContent } from '../data/content';
+interface Props { ui: HomeContent['ui']; }
+const { ui } = Astro.props;
+---
 <footer class="site-footer">
-  <a class="wordmark" href="#inicio">Isabel Florido</a>
-  <span>Cuerpo, mente y movimiento consciente</span>
-  <a href="#inicio">Volver arriba ↑</a>
+  <div><a class="wordmark" href="#inicio">Isabel Florido</a><p>{ui.footerNote}</p></div>
+  <span>{ui.tagline}</span>
+  <a href="#inicio">{ui.backTop} <span aria-hidden="true">↑</span></a>
 </footer>
