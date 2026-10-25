@@ -4,23 +4,23 @@ import type { HomeContent } from '../data/content';
 import { defaultLocale, localeNames, publishedLocales } from '../data/locales';
 import type { Locale } from '../data/locales';
 import { assetUrl } from '../utils/assetUrl';
-interface Props { ui: HomeContent['ui']; locale: Locale; }
-const { ui, locale } = Astro.props;
+interface Props { ui: HomeContent['ui']; locale: Locale; landing?: boolean; }
+const { ui, locale, landing = false } = Astro.props;
 const links = [{ href: '#sesiones', label: ui.sessions }, { href: '#metodo', label: ui.method }, { href: '#isabel', label: ui.about }];
 ---
 <header class="site-header">
   <a class="wordmark" href="#inicio" aria-label={`${site.name}, ${ui.backTop}`}>{site.name}<span>{ui.tagline}</span></a>
-  <nav class="desktop-nav" aria-label={ui.navigation}>
+  {!landing && <nav class="desktop-nav" aria-label={ui.navigation}>
     {links.map(link => <a href={link.href}>{link.label}</a>)}
     <a class="nav-contact" href="#contacto">{ui.contact}</a>
-  </nav>
-  <details class="mobile-nav">
+  </nav>}
+  {!landing && <details class="mobile-nav">
     <summary>{ui.menu}<span aria-hidden="true" class="menu-icon"></span></summary>
     <nav aria-label={ui.navigation}>
       {links.map(link => <a href={link.href}>{link.label}</a>)}
       <a href="#contacto">{ui.contact}</a>
     </nav>
-  </details>
+  </details>}
   {publishedLocales.length > 1 && <nav class="language-nav" aria-label={{ es: 'Idioma', en: 'Language', fr: 'Langue' }[locale]}>{publishedLocales.map(language => <a href={assetUrl(language === defaultLocale ? '/' : `/${language}/`)} lang={language} hreflang={language} aria-current={language === locale ? 'page' : undefined}><img src={assetUrl(`/images/flag-${language}.svg`)} width="27" height="18" alt="" aria-hidden="true" /><span>{localeNames[language]}</span></a>)}</nav>}
 </header>
 <script>

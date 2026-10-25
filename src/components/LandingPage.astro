@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from './Header.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
+import contact from '../data/contact.json';
+import type { HomeContent } from '../data/content';
+import type { Locale } from '../data/locales';
+interface Props { home: HomeContent; locale: Locale; }
+const { home, locale } = Astro.props;
+const { ui } = home;
+const email = contact.email.trim();
+const phone = contact.phone.trim();
+const instagram = contact.instagram.trim();
+---
+<BaseLayout title={home.seo.title} description={home.seo.description} locale={locale} skipLabel={ui.skip} indexable>
+  <div class="landing-topline" aria-hidden="true"></div>
+  <Header ui={ui} locale={locale} landing />
+  <main class="landing" id="contenido" tabindex="-1">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="intro">{home.heroIntro}</p>
+        <h1 id="hero-title">{home.heroTitle}</h1>
+        <p class="hero-attribution">{home.heroAttribution}</p>
+        {home.heroDescription.split('\n\n').map(paragraph => <p class="hero-description">{paragraph}</p>)}
+        <div class="hero-actions"><a class="button" href={`mailto:${email}`}>{ui.realContactCta}</a></div>
+        <p class="hero-detail">{ui.heroDetail}</p>
+      </div>
+      <figure class="hero-photo">
+        <ResponsiveImage src={home.heroImage} alt={home.heroImageAlt} sizes="(max-width: 700px) 89vw, 46vw" priority />
+        {home.heroCaption && <figcaption>{home.heroCaption}</figcaption>}
+        <small class="photo-credit">{home.photoCredit}</small>
+      </figure>
+      <div class="hero-contact" id="contacto">
+        <a href={`mailto:${email}`}>{email}</a>
+        <a href={`tel:${phone.replace(/[^+\d]/g, '')}`}>{phone}</a>
+        <a href={`https://www.instagram.com/${instagram}/`}>Instagram · @{instagram}</a>
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>

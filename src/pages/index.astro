@@ -1,6 +1,6 @@
 ---
-import HomePage from '../components/HomePage.astro';
+import LandingPage from '../components/LandingPage.astro';
 import { getHomeContent } from '../data/content';
 import { defaultLocale } from '../data/locales';
 ---
-<HomePage home={getHomeContent(defaultLocale)} locale={defaultLocale} />
+<LandingPage home={getHomeContent(defaultLocale)} locale={defaultLocale} />

@@ -129,3 +129,7 @@ Por petición del usuario, todo el código, los contenidos y la publicación se 
 Para publicar una versión autorizada: guardar los cambios en la rama aprobada y ejecutar **Publish website → Run workflow** desde GitHub Actions. Para la web pública habitual, seleccionar `main`. La publicación es manual; no se activa al editar contenidos ni al hacer push.
 
 La revisión sigue marcada como propuesta y conserva `noindex, nofollow`. El contacto permanece como maqueta sin envío. El lanzamiento definitivo y cualquier fusión siguen sujetos a autorización expresa.
+
+## Portada pública independiente
+
+Las rutas /, /en/ y /fr/ utilizan LandingPage.astro: presentación, fotografía, idiomas y contacto. HomePage.astro conserva la propuesta completa para desarrollo posterior, sin una ruta pública. La portada no muestra avisos de revisión ni enlaces a las secciones pendientes y permite indexación.

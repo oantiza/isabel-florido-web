@@ -1,5 +1,5 @@
 ---
-import HomePage from '../../components/HomePage.astro';
+import LandingPage from '../../components/LandingPage.astro';
 import { getHomeContent } from '../../data/content';
 import { defaultLocale, publishedLocales } from '../../data/locales';
 import type { Locale } from '../../data/locales';
@@ -9,4 +9,4 @@ export function getStaticPaths() {
 }
 const locale = Astro.params.locale as Locale;
 ---
-<HomePage home={getHomeContent(locale)} locale={locale} />
+<LandingPage home={getHomeContent(locale)} locale={locale} />

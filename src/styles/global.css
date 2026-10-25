@@ -21,6 +21,8 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 28px; }
 body { margin: 0; }
+.landing-topline { height: 8px; background: var(--olive); }
+.landing { padding-bottom: 40px; }
 a { color: inherit; text-underline-offset: 5px; }
 :where(a, button, summary, input, textarea):focus-visible { outline: 3px solid var(--terracotta); outline-offset: 6px; }
 main:focus { outline: none; }
