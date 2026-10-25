@@ -2,6 +2,7 @@
    Shared spacing and type tokens keep future CMS edits consistent. */
 :root {
   --paper: #f7f5ef;
+  --cover: #dce5e8;
   --sand: #e8e3d7;
   --olive: #555c41;
   --sage: #e8ece2;
@@ -47,6 +48,7 @@ nav a:hover, .text-link:hover { color: var(--olive); text-decoration: underline;
 .language-nav { display: flex; flex-wrap: wrap; gap: 15px; }
 .hero { display: grid; grid-template-columns: 1fr 1.07fr; gap: 0 3.5vw; padding: 36px var(--gutter) 0; }
 .hero-copy { padding: 20px 0 40px; align-self: center; }
+.site-header, .hero { background: var(--cover); }
 .intro, .section-label { font-size: 13px; color: var(--olive); margin-bottom: 24px; }
 .intro::before { content: ''; display: inline-block; width: 22px; height: 1px; background: var(--terracotta); vertical-align: middle; margin-right: 12px; }
 .hero-description { font-size: 16px; max-width: 42ch; color: var(--muted); margin-bottom: 28px; }
