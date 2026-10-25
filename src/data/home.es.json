@@ -1,35 +1,119 @@
 {
-  "heroIntro": "Una práctica que parte de ti",
+  "heroIntro": "Mind & Body Medicine con Isabel Florido",
   "heroTitle": "Conecta con\ntu cuerpo.\nHabita tu presente.",
-  "heroDescription": "Movimiento, respiración y atención adaptados a ti. Un acompañamiento personal desde la escucha y la conciencia.",
+  "heroDescription": "Entrenamiento personalizado que integra movimiento, respiración y atención. Una práctica presencial u online, adaptada a tus necesidades de hoy.",
   "heroCaption": "El cuerpo como punto de encuentro.",
   "heroFootnote": "Un espacio para escucharte.",
   "portraitCaption": "Isabel Florido · Enseñar, investigar, acompañar.",
   "aboutTitle": "Una vida dedicada\na enseñar.",
   "aboutIntroduction": "La transmisión del conocimiento y la curiosidad por aprender atraviesan toda mi trayectoria. Hoy, esa misma vocación da forma a una práctica que reúne cuerpo, mente y movimiento.",
-  "aboutBiography": "Durante casi veinte años ejercí como docente en la Facultad de Traducción e Interpretación de la Universidad de Las Palmas de Gran Canaria. Mi formación y práctica abarcan Yoga, Yin Yoga, Pilates clásico, anatomía, biomecánica, mindfulness y meditación.",
+  "aboutBiography": "Durante casi veinte años ejercí como docente en la Facultad de Traducción e Interpretación de la Universidad de Las Palmas de Gran Canaria. He estudiado, vivido y trabajado en distintos países. Esa experiencia y mi interés por la metodología están en la raíz de mi forma de acompañar.",
   "aboutNote": "Cada persona tiene su ritmo.\nCada momento, sus necesidades.",
   "methodTitle": "Mente y cuerpo.\nUna misma práctica.",
-  "methodDescription": "Mind & Body Medicine es el nombre de mi propuesta de entrenamiento integral: una práctica inteligente, amable y coherente con lo que necesitas hoy.",
-  "methodSummary": "Una metodología de movimiento y atención, adaptada a cada persona.",
+  "methodDescription": "Mind & Body Medicine es el nombre de mi propuesta de entrenamiento integral. Reúne conciencia corporal, atención mental y ejercicios de coordinación y memoria en una misma práctica.",
+  "methodSummary": "Respiración, movilidad, fuerza, flexibilidad y equilibrio se trabajan junto con la concentración, el ritmo y el control del movimiento. La práctica parte de tus características actuales y se adapta a ellas.",
   "practiceCaption": "Escucha.\nRespira.\nMuévete.",
   "sessionsTitle": "Tu práctica.\nTu punto de partida.",
-  "sessionsDescription": "Comenzamos con una conversación, un análisis de tus necesidades y una observación postural y funcional. A partir de ahí, diseñamos una práctica personal que se ajusta contigo.",
-  "sessionModalityTitle": "Presencial u online",
-  "sessionModalityDescription": "Dos formas de encontrarnos, con el mismo enfoque individual y consciente.",
+  "sessionsDescription": "Una propuesta de entrenamiento personal que combina las herramientas de mi formación según tus necesidades. El punto de partida es tu situación actual, con una observación postural y un análisis individual antes de diseñar la práctica.",
   "sessionLanguagesTitle": "En tu idioma",
   "sessionLanguagesDescription": "Sesiones en español, inglés y francés.",
   "sessionApproachTitle": "Adaptada a tu presente",
   "sessionApproachDescription": "Respiración, movilidad, fuerza, equilibrio y atención, según tus necesidades.",
   "contactTitle": "Empezamos por\nescucharte.",
   "contactDescription": "El primer paso es conocernos y comprender qué necesitas para construir tu práctica.",
-  "contactPending": "Las vías de contacto y la disponibilidad se incorporarán tras su confirmación.",
+  "contactPending": "Este formulario es una maqueta. El envío se activará cuando se confirme la vía de contacto de Isabel.",
   "heroImage": "/images/isabel-brazos-abiertos.webp",
   "heroImageAlt": "Isabel, de espaldas y con los brazos abiertos, ante un muro de azulejos",
   "portraitImage": "/images/isabel-retrato.webp",
   "portraitImageAlt": "Isabel Florido sentada sobre una esterilla en un jardín",
   "practiceImage": "/images/isabel-practica.webp",
   "practiceImageAlt": "Isabel realiza una flexión de pie con las piernas abiertas durante su práctica de yoga",
+  "seo": {
+    "title": "Isabel Florido | Movimiento y entrenamiento personalizado",
+    "description": "Conoce la propuesta de Isabel Florido: entrenamiento personalizado que integra cuerpo, mente y movimiento. Sesiones presenciales u online en español, inglés y francés."
+  },
+  "ui": {
+    "preview": "Propuesta en revisión",
+    "previewNote": "Diseño y contenidos pendientes de validación",
+    "tagline": "Cuerpo, mente y movimiento",
+    "skip": "Saltar al contenido",
+    "navigation": "Navegación principal",
+    "menu": "Explorar",
+    "about": "Sobre Isabel",
+    "method": "El método",
+    "sessions": "Sesiones",
+    "contact": "Primer encuentro",
+    "primaryCta": "Cómo empezar",
+    "secondaryCta": "Descubre el método",
+    "heroDetail": "Presencial y online · Español, inglés y francés",
+    "explore": "Conoce la propuesta",
+    "formationTitle": "Formación y práctica",
+    "formationDescription": "Yoga y Yin Yoga, Pilates clásico, anatomía y biomecánica del movimiento, mindfulness y meditación.",
+    "formationNote": "Una trayectoria de aprendizaje que continúa con el estudio y la investigación.",
+    "methodName": "Mind & Body Medicine",
+    "methodCta": "Explora las sesiones",
+    "modalitiesTitle": "Dos maneras de encontrarnos",
+    "modalityNote": "La disponibilidad, la ubicación de las sesiones presenciales y las condiciones se confirmarán directamente con Isabel.",
+    "processLabel": "Cómo empezar",
+    "processTitle": "Tu práctica empieza\npor conocerte.",
+    "processDescription": "Antes de proponer ejercicios, el método parte de una observación postural y de un análisis de tus necesidades.",
+    "faqTitle": "Antes de dar el primer paso",
+    "contactName": "Tu nombre",
+    "contactEmail": "Tu correo electrónico",
+    "contactMessage": "¿Qué te gustaría consultar?",
+    "contactPlaceholder": "Cuéntame qué buscas y qué modalidad te interesa.",
+    "contactButton": "Enviar consulta",
+    "mockLegend": "Vista previa del formulario",
+    "mockStatus": "Envío pendiente de activación",
+    "realContactCta": "Escribir a Isabel",
+    "phoneCta": "Llamar a Isabel",
+    "backTop": "Volver arriba",
+    "footerNote": "Una práctica personal. Un espacio para escucharte."
+  },
+  "modalities": [
+    {
+      "title": "Sesiones presenciales",
+      "text": "Un encuentro en persona para trabajar respiración, movimiento y atención desde tus posibilidades actuales.",
+      "detail": "La ubicación se confirmará con Isabel."
+    },
+    {
+      "title": "Sesiones online",
+      "text": "La modalidad virtual permite realizar la práctica a distancia, con el mismo enfoque de entrenamiento personalizado.",
+      "detail": "Disponible en español, inglés y francés."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Conocer tus necesidades",
+      "text": "Compartir tu punto de partida y lo que necesitas trabajar en este momento."
+    },
+    {
+      "title": "Observar cómo te mueves",
+      "text": "Una observación postural inicial y un análisis individual permiten orientar el entrenamiento."
+    },
+    {
+      "title": "Diseñar tu práctica",
+      "text": "Construir juntos un entrenamiento personal, adaptado a tus características actuales."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué se trabaja en las sesiones?",
+      "answer": "La propuesta integra capacidades corporales y de atención: respiración, movilidad, fuerza, flexibilidad, equilibrio, coordinación, memoria y concentración. La selección de ejercicios depende de las necesidades de cada persona."
+    },
+    {
+      "question": "¿En qué idiomas puedo realizar la práctica?",
+      "answer": "Las sesiones pueden realizarse en español, inglés y francés, tanto de forma presencial como online."
+    },
+    {
+      "question": "¿Cómo se decide por dónde empezar?",
+      "answer": "El método parte de una observación postural inicial y un análisis de necesidades individual. A partir de esa información se diseña el entrenamiento personal."
+    },
+    {
+      "question": "¿Cómo puedo consultar disponibilidad y condiciones?",
+      "answer": "La disponibilidad, la ubicación de las sesiones presenciales, la duración y los precios se confirmarán directamente con Isabel. La vía de contacto está pendiente de activación en esta propuesta."
+    }
+  ],
   "pillars": [
     {
       "title": "Conciencia corporal",

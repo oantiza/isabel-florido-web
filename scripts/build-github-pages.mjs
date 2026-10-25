@@ -16,12 +16,17 @@ const html = readFileSync(resolve(source, 'index.html'), 'utf8');
 const files = new Set(['index.html']);
 const ids = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]));
 
-for (const [, url] of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
+const urls = [
+  ...[...html.matchAll(/\b(?:src|href)="([^"]+)"/g)].map(match => match[1]),
+  ...[...html.matchAll(/\bsrcset="([^"]+)"/g)].flatMap(match => match[1].split(',').map(candidate => candidate.trim().split(/\s+/)[0])),
+];
+
+for (const url of urls) {
   if (url.startsWith('#')) {
     if (!ids.has(url.slice(1))) throw new Error(`Missing anchor: ${url}`);
     continue;
   }
-  if (/^https?:\/\//.test(url)) continue;
+  if (/^(https?:\/\/|mailto:|tel:)/.test(url)) continue;
   if (!url.startsWith(base)) throw new Error(`Asset is outside the Pages base: ${url}`);
   const relative = decodeURIComponent(url.slice(base.length));
   const absolute = resolve(source, relative);
