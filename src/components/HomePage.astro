@@ -20,7 +20,7 @@ const phone = contact.phone.trim();
       <div class="hero-copy">
         <p class="intro">{home.heroIntro}</p>
         <h1 id="hero-title">{home.heroTitle}</h1>
-        <p class="hero-description">{home.heroDescription}</p>
+        {home.heroDescription.split('\n\n').map(paragraph => <p class="hero-description">{paragraph}</p>)}
         <div class="hero-actions"><a class="button" href="#primeros-pasos">{ui.primaryCta}</a><a class="text-link" href="#metodo">{ui.secondaryCta}</a></div>
         <p class="hero-detail">{ui.heroDetail}</p>
       </div>
