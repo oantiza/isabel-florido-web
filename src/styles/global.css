@@ -23,8 +23,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 28px; }
 body { margin: 0; }
 .landing-topline { height: 8px; background: var(--olive); }
 .landing { padding-bottom: 40px; }
-.landing-contact { grid-column: 1 / -1; width: 100%; max-width: 480px; display: grid; grid-template-columns: 100px minmax(0, 1fr); align-items: start; gap: 14px 18px; margin-top: 24px; padding: 16px 20px; background: #eef0e8; border-left: 3px solid var(--olive); border-radius: 3px; }
-.landing-contact h2 { font-size: 24px; line-height: 1.2; margin: 5px 0 0; color: var(--olive); }
+.landing-contact { grid-column: 1 / -1; width: 100%; max-width: 442px; display: grid; grid-template-columns: max-content minmax(0, 1fr); align-items: start; gap: 14px 18px; margin-top: 24px; padding: 16px 20px; background: #eef0e8; border-left: 3px solid var(--olive); border-radius: 3px; }
+.landing-contact h2 { font-size: 23px; line-height: 1.2; margin: 5px 0 0; color: var(--olive); }
 .landing-contact-links { display: flex; flex-direction: column; gap: 0; }
 .landing-contact-links a { display: flex; align-items: center; gap: 10px; padding: 6px 0; min-height: 44px; font-size: 14px; line-height: 1.5; text-decoration: none; }
 .landing-contact-links a:hover { color: var(--olive); }
