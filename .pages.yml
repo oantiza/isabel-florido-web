@@ -38,7 +38,743 @@ content:
       - name: heroFootnote
         label: Nota al pie de portada
         type: text
+        required: false
+      - name: portraitCaption
+        label: Pie de retrato
+        type: string
         required: true
+      - name: aboutTitle
+        label: Título de trayectoria
+        type: text
+        required: true
+      - name: aboutIntroduction
+        label: Presentación de Isabel
+        type: text
+        required: true
+      - name: aboutBiography
+        label: Biografía
+        type: text
+        required: true
+      - name: aboutNote
+        label: Frase de Isabel
+        type: text
+        required: true
+      - name: methodTitle
+        label: Título del método
+        type: text
+        required: true
+      - name: methodDescription
+        label: Explicación del método
+        type: text
+        required: true
+      - name: methodSummary
+        label: Capacidades que se trabajan
+        type: text
+        required: true
+      - name: practiceCaption
+        label: Texto sobre fotografía de práctica
+        type: text
+        required: true
+      - name: sessionsTitle
+        label: Título de sesiones
+        type: text
+        required: true
+      - name: sessionsDescription
+        label: Presentación de las sesiones
+        type: text
+        required: true
+      - name: sessionLanguagesTitle
+        label: Título de idiomas
+        type: string
+        required: true
+      - name: sessionLanguagesDescription
+        label: Idiomas de las sesiones
+        type: text
+        required: true
+      - name: sessionApproachTitle
+        label: Título de adaptación
+        type: string
+        required: true
+      - name: sessionApproachDescription
+        label: Descripción de la práctica
+        type: text
+        required: true
+      - name: contactTitle
+        label: Título de contacto
+        type: text
+        required: true
+      - name: contactDescription
+        label: Presentación de contacto
+        type: text
+        required: true
+      - name: contactPending
+        label: Aviso de maqueta sin envío
+        type: text
+        required: true
+      - name: heroImage
+        label: Foto principal
+        type: image
+        required: true
+      - name: heroImageAlt
+        label: Descripción accesible de foto principal
+        type: string
+        required: true
+        description: Describe lo que aparece en la fotografía para las personas que
+          utilizan lectores de pantalla.
+      - name: portraitImage
+        label: Retrato
+        type: image
+        required: true
+      - name: portraitImageAlt
+        label: Descripción accesible del retrato
+        type: string
+        required: true
+        description: Describe lo que aparece en la fotografía para las personas que
+          utilizan lectores de pantalla.
+      - name: practiceImage
+        label: Foto de práctica
+        type: image
+        required: true
+      - name: practiceImageAlt
+        label: Descripción accesible de foto de práctica
+        type: string
+        required: true
+        description: Describe lo que aparece en la fotografía para las personas que
+          utilizan lectores de pantalla.
+      - name: seo
+        label: Buscadores y enlaces compartidos
+        type: object
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: description
+            label: Descripción
+            type: text
+            required: true
+      - name: ui
+        label: Navegación, botones y textos de interfaz
+        type: object
+        fields:
+          - name: preview
+            label: Título del aviso de revisión
+            type: string
+            required: true
+          - name: previewNote
+            label: Detalle del aviso de revisión
+            type: text
+            required: true
+          - name: tagline
+            label: Descriptor de marca
+            type: string
+            required: true
+          - name: skip
+            label: Enlace de salto al contenido
+            type: string
+            required: true
+          - name: navigation
+            label: Nombre de navegación
+            type: string
+            required: true
+          - name: menu
+            label: Botón de menú móvil
+            type: string
+            required: true
+          - name: about
+            label: "Navegación: Isabel"
+            type: string
+            required: true
+          - name: method
+            label: "Navegación: método"
+            type: string
+            required: true
+          - name: sessions
+            label: "Navegación: sesiones"
+            type: string
+            required: true
+          - name: contact
+            label: "Navegación: contacto"
+            type: string
+            required: true
+          - name: primaryCta
+            label: Acción principal
+            type: string
+            required: true
+          - name: secondaryCta
+            label: Acción secundaria
+            type: string
+            required: true
+          - name: heroDetail
+            label: Modalidades e idiomas en portada
+            type: string
+            required: true
+          - name: explore
+            label: Enlace para seguir explorando
+            type: string
+            required: true
+          - name: formationTitle
+            label: Título de formación
+            type: string
+            required: true
+          - name: formationDescription
+            label: Formación y práctica
+            type: text
+            required: true
+          - name: formationNote
+            label: Nota sobre aprendizaje
+            type: text
+            required: true
+          - name: methodName
+            label: Nombre de la propuesta
+            type: string
+            required: true
+          - name: methodCta
+            label: Acción del método
+            type: string
+            required: true
+          - name: modalitiesTitle
+            label: Título de modalidades
+            type: string
+            required: true
+          - name: modalityNote
+            label: Condiciones por confirmar
+            type: text
+            required: true
+          - name: processLabel
+            label: Etiqueta del recorrido
+            type: string
+            required: true
+          - name: processTitle
+            label: Título del recorrido
+            type: text
+            required: true
+          - name: processDescription
+            label: Introducción del recorrido
+            type: text
+            required: true
+          - name: faqTitle
+            label: Título de preguntas frecuentes
+            type: string
+            required: true
+          - name: contactName
+            label: Etiqueta de nombre
+            type: string
+            required: true
+          - name: contactEmail
+            label: Etiqueta de correo
+            type: string
+            required: true
+          - name: contactMessage
+            label: Etiqueta de mensaje
+            type: string
+            required: true
+          - name: contactPlaceholder
+            label: Ayuda del mensaje
+            type: text
+            required: true
+          - name: contactButton
+            label: Botón de envío de maqueta
+            type: string
+            required: true
+          - name: mockLegend
+            label: Título de maqueta
+            type: string
+            required: true
+          - name: mockStatus
+            label: Estado del formulario
+            type: string
+            required: true
+          - name: realContactCta
+            label: Acción de contacto por correo
+            type: string
+            required: true
+          - name: phoneCta
+            label: Acción de contacto por teléfono
+            type: string
+            required: true
+          - name: backTop
+            label: Enlace para volver arriba
+            type: string
+            required: true
+          - name: footerNote
+            label: Nota del pie
+            type: text
+            required: true
+      - name: modalities
+        label: Modalidades de sesión
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: text
+            label: Texto
+            type: text
+            required: true
+          - name: detail
+            label: Nota de modalidad
+            type: string
+            required: true
+      - name: steps
+        label: Pasos del primer encuentro
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: text
+            label: Texto
+            type: text
+            required: true
+      - name: faqs
+        label: Preguntas frecuentes
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{question}"
+        fields:
+          - name: question
+            label: Pregunta
+            type: string
+            required: true
+          - name: answer
+            label: Respuesta
+            type: text
+            required: true
+      - name: pillars
+        label: Pilares del método
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: text
+            label: Texto
+            type: text
+            required: true
+  - name: home-en
+    label: Portada en inglés
+    type: file
+    path: src/data/home.en.json
+    format: json
+    fields:
+      - name: heroIntro
+        label: Introducción de portada
+        type: string
+        required: true
+      - name: heroTitle
+        label: Titular principal
+        type: text
+        required: true
+      - name: heroAttribution
+        label: Autoría de la cita principal
+        type: string
+        required: true
+      - name: heroDescription
+        label: Descripción principal
+        type: text
+        required: true
+      - name: heroCaption
+        label: Pie de foto principal
+        type: string
+        required: false
+      - name: photoCredit
+        label: Autoría de las dos primeras fotografías
+        type: string
+        required: true
+      - name: heroFootnote
+        label: Nota al pie de portada
+        type: text
+        required: false
+      - name: portraitCaption
+        label: Pie de retrato
+        type: string
+        required: true
+      - name: aboutTitle
+        label: Título de trayectoria
+        type: text
+        required: true
+      - name: aboutIntroduction
+        label: Presentación de Isabel
+        type: text
+        required: true
+      - name: aboutBiography
+        label: Biografía
+        type: text
+        required: true
+      - name: aboutNote
+        label: Frase de Isabel
+        type: text
+        required: true
+      - name: methodTitle
+        label: Título del método
+        type: text
+        required: true
+      - name: methodDescription
+        label: Explicación del método
+        type: text
+        required: true
+      - name: methodSummary
+        label: Capacidades que se trabajan
+        type: text
+        required: true
+      - name: practiceCaption
+        label: Texto sobre fotografía de práctica
+        type: text
+        required: true
+      - name: sessionsTitle
+        label: Título de sesiones
+        type: text
+        required: true
+      - name: sessionsDescription
+        label: Presentación de las sesiones
+        type: text
+        required: true
+      - name: sessionLanguagesTitle
+        label: Título de idiomas
+        type: string
+        required: true
+      - name: sessionLanguagesDescription
+        label: Idiomas de las sesiones
+        type: text
+        required: true
+      - name: sessionApproachTitle
+        label: Título de adaptación
+        type: string
+        required: true
+      - name: sessionApproachDescription
+        label: Descripción de la práctica
+        type: text
+        required: true
+      - name: contactTitle
+        label: Título de contacto
+        type: text
+        required: true
+      - name: contactDescription
+        label: Presentación de contacto
+        type: text
+        required: true
+      - name: contactPending
+        label: Aviso de maqueta sin envío
+        type: text
+        required: true
+      - name: heroImage
+        label: Foto principal
+        type: image
+        required: true
+      - name: heroImageAlt
+        label: Descripción accesible de foto principal
+        type: string
+        required: true
+        description: Describe lo que aparece en la fotografía para las personas que
+          utilizan lectores de pantalla.
+      - name: portraitImage
+        label: Retrato
+        type: image
+        required: true
+      - name: portraitImageAlt
+        label: Descripción accesible del retrato
+        type: string
+        required: true
+        description: Describe lo que aparece en la fotografía para las personas que
+          utilizan lectores de pantalla.
+      - name: practiceImage
+        label: Foto de práctica
+        type: image
+        required: true
+      - name: practiceImageAlt
+        label: Descripción accesible de foto de práctica
+        type: string
+        required: true
+        description: Describe lo que aparece en la fotografía para las personas que
+          utilizan lectores de pantalla.
+      - name: seo
+        label: Buscadores y enlaces compartidos
+        type: object
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: description
+            label: Descripción
+            type: text
+            required: true
+      - name: ui
+        label: Navegación, botones y textos de interfaz
+        type: object
+        fields:
+          - name: preview
+            label: Título del aviso de revisión
+            type: string
+            required: true
+          - name: previewNote
+            label: Detalle del aviso de revisión
+            type: text
+            required: true
+          - name: tagline
+            label: Descriptor de marca
+            type: string
+            required: true
+          - name: skip
+            label: Enlace de salto al contenido
+            type: string
+            required: true
+          - name: navigation
+            label: Nombre de navegación
+            type: string
+            required: true
+          - name: menu
+            label: Botón de menú móvil
+            type: string
+            required: true
+          - name: about
+            label: "Navegación: Isabel"
+            type: string
+            required: true
+          - name: method
+            label: "Navegación: método"
+            type: string
+            required: true
+          - name: sessions
+            label: "Navegación: sesiones"
+            type: string
+            required: true
+          - name: contact
+            label: "Navegación: contacto"
+            type: string
+            required: true
+          - name: primaryCta
+            label: Acción principal
+            type: string
+            required: true
+          - name: secondaryCta
+            label: Acción secundaria
+            type: string
+            required: true
+          - name: heroDetail
+            label: Modalidades e idiomas en portada
+            type: string
+            required: true
+          - name: explore
+            label: Enlace para seguir explorando
+            type: string
+            required: true
+          - name: formationTitle
+            label: Título de formación
+            type: string
+            required: true
+          - name: formationDescription
+            label: Formación y práctica
+            type: text
+            required: true
+          - name: formationNote
+            label: Nota sobre aprendizaje
+            type: text
+            required: true
+          - name: methodName
+            label: Nombre de la propuesta
+            type: string
+            required: true
+          - name: methodCta
+            label: Acción del método
+            type: string
+            required: true
+          - name: modalitiesTitle
+            label: Título de modalidades
+            type: string
+            required: true
+          - name: modalityNote
+            label: Condiciones por confirmar
+            type: text
+            required: true
+          - name: processLabel
+            label: Etiqueta del recorrido
+            type: string
+            required: true
+          - name: processTitle
+            label: Título del recorrido
+            type: text
+            required: true
+          - name: processDescription
+            label: Introducción del recorrido
+            type: text
+            required: true
+          - name: faqTitle
+            label: Título de preguntas frecuentes
+            type: string
+            required: true
+          - name: contactName
+            label: Etiqueta de nombre
+            type: string
+            required: true
+          - name: contactEmail
+            label: Etiqueta de correo
+            type: string
+            required: true
+          - name: contactMessage
+            label: Etiqueta de mensaje
+            type: string
+            required: true
+          - name: contactPlaceholder
+            label: Ayuda del mensaje
+            type: text
+            required: true
+          - name: contactButton
+            label: Botón de envío de maqueta
+            type: string
+            required: true
+          - name: mockLegend
+            label: Título de maqueta
+            type: string
+            required: true
+          - name: mockStatus
+            label: Estado del formulario
+            type: string
+            required: true
+          - name: realContactCta
+            label: Acción de contacto por correo
+            type: string
+            required: true
+          - name: phoneCta
+            label: Acción de contacto por teléfono
+            type: string
+            required: true
+          - name: backTop
+            label: Enlace para volver arriba
+            type: string
+            required: true
+          - name: footerNote
+            label: Nota del pie
+            type: text
+            required: true
+      - name: modalities
+        label: Modalidades de sesión
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: text
+            label: Texto
+            type: text
+            required: true
+          - name: detail
+            label: Nota de modalidad
+            type: string
+            required: true
+      - name: steps
+        label: Pasos del primer encuentro
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: text
+            label: Texto
+            type: text
+            required: true
+      - name: faqs
+        label: Preguntas frecuentes
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{question}"
+        fields:
+          - name: question
+            label: Pregunta
+            type: string
+            required: true
+          - name: answer
+            label: Respuesta
+            type: text
+            required: true
+      - name: pillars
+        label: Pilares del método
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Título
+            type: string
+            required: true
+          - name: text
+            label: Texto
+            type: text
+            required: true
+  - name: home-fr
+    label: Portada en francés
+    type: file
+    path: src/data/home.fr.json
+    format: json
+    fields:
+      - name: heroIntro
+        label: Introducción de portada
+        type: string
+        required: true
+      - name: heroTitle
+        label: Titular principal
+        type: text
+        required: true
+      - name: heroAttribution
+        label: Autoría de la cita principal
+        type: string
+        required: true
+      - name: heroDescription
+        label: Descripción principal
+        type: text
+        required: true
+      - name: heroCaption
+        label: Pie de foto principal
+        type: string
+        required: false
+      - name: photoCredit
+        label: Autoría de las dos primeras fotografías
+        type: string
+        required: true
+      - name: heroFootnote
+        label: Nota al pie de portada
+        type: text
+        required: false
       - name: portraitCaption
         label: Pie de retrato
         type: string
@@ -395,3 +1131,6 @@ content:
         pattern:
           regex: ^(\+?[0-9 ()-]{6,25})?$
           message: Introduce un teléfono válido o deja el campo vacío.
+      - name: instagram
+        label: Usuario de Instagram (sin @)
+        type: string

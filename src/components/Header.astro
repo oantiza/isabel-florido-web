@@ -21,7 +21,7 @@ const links = [{ href: '#sesiones', label: ui.sessions }, { href: '#metodo', lab
       <a href="#contacto">{ui.contact}</a>
     </nav>
   </details>
-  {publishedLocales.length > 1 && <nav class="language-nav" aria-label="Language">{publishedLocales.map(language => <a href={assetUrl(language === defaultLocale ? '/' : `/${language}/`)} lang={language} hreflang={language} aria-current={language === locale ? 'page' : undefined}>{localeNames[language]}</a>)}</nav>}
+  {publishedLocales.length > 1 && <nav class="language-nav" aria-label={{ es: 'Idioma', en: 'Language', fr: 'Langue' }[locale]}>{publishedLocales.map(language => <a href={assetUrl(language === defaultLocale ? '/' : `/${language}/`)} lang={language} hreflang={language} aria-current={language === locale ? 'page' : undefined}>{localeNames[language]}</a>)}</nav>}
 </header>
 <script>
   const menu = document.querySelector<HTMLDetailsElement>('.mobile-nav');

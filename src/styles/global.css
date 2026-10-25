@@ -44,7 +44,9 @@ nav a { font-size: 14px; text-decoration: none; padding: 12px 0; }
 nav a:hover, .text-link:hover { color: var(--olive); text-decoration: underline; }
 .nav-contact { border-bottom: 1px solid var(--olive); }
 .mobile-nav { display: none; }
-.language-nav { display: flex; flex-wrap: wrap; gap: 15px; }
+.language-nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 15px; flex-basis: 100%; }
+.language-nav a[aria-current="page"] { font-weight: 600; text-decoration: underline; }
+.site-header { flex-wrap: wrap; }
 .hero { display: grid; grid-template-columns: 1fr 1.07fr; gap: 0 3.5vw; padding: 36px var(--gutter) 0; }
 .hero-copy { padding: 20px 0 40px; align-self: center; }
 .intro, .section-label { font-size: 13px; color: var(--olive); margin-bottom: 24px; }
@@ -63,6 +65,10 @@ nav a:hover, .text-link:hover { color: var(--olive); text-decoration: underline;
 .hero-foot { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; gap: 18px; border-bottom: 1px solid var(--line); padding: 26px 0 18px; margin-top: 18px; font-size: 12px; color: var(--muted); }
 .hero-foot a { text-decoration: none; padding-block: 10px; }
 .hero-foot a span { margin-left: 15px; }
+.hero-contact { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; padding: 28px; margin-top: 28px; background: var(--sage); }
+.hero-contact .contact-value { display: block; margin-top: 12px; font-size: 15px; line-height: 1.6; overflow-wrap: anywhere; text-decoration: none; }
+.hero-contact .contact-value:hover { text-decoration: underline; }
+@media (max-width: 700px) { .hero-contact { grid-template-columns: 1fr; padding: 22px; gap: 24px; } }
 .section-wrap { padding: var(--section-space) max(var(--gutter), calc((100vw - 1210px) / 2)); }
 .sessions { display: grid; grid-template-columns: 1fr 1fr; gap: 46px 9vw; }
 .sessions-intro > p:not(.section-label), .method-intro p, .about-copy > p:not(.section-label), .process-heading > p, .contact-copy > p:not(.section-label) { font-size: 16px; color: var(--muted); max-width: 53ch; }
