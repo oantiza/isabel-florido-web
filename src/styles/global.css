@@ -50,6 +50,7 @@ nav a:hover, .text-link:hover { color: var(--olive); text-decoration: underline;
 .intro, .section-label { font-size: 13px; color: var(--olive); margin-bottom: 24px; }
 .intro::before { content: ''; display: inline-block; width: 22px; height: 1px; background: var(--terracotta); vertical-align: middle; margin-right: 12px; }
 .hero-description { font-size: 16px; max-width: 42ch; color: var(--muted); margin-bottom: 28px; }
+.hero-attribution { font-size: 13px; line-height: 1.5; color: var(--muted); margin-top: -12px; margin-bottom: 28px; }
 .photo-credit { display: block; margin-top: 8px; font-size: 11px; line-height: 1.5; color: var(--muted); }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 26px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 50px; background: var(--olive); color: white; text-decoration: none; font: 14px var(--sans); padding: 15px 25px; border: 1px solid transparent; border-radius: 2px; cursor: pointer; }

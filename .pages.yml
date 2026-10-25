@@ -19,6 +19,10 @@ content:
         label: Titular principal
         type: text
         required: true
+      - name: heroAttribution
+        label: Autoría de la cita principal
+        type: string
+        required: true
       - name: heroDescription
         label: Descripción principal
         type: text
