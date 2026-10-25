@@ -50,6 +50,7 @@ nav a:hover, .text-link:hover { color: var(--olive); text-decoration: underline;
 .intro, .section-label { font-size: 13px; color: var(--olive); margin-bottom: 24px; }
 .intro::before { content: ''; display: inline-block; width: 22px; height: 1px; background: var(--terracotta); vertical-align: middle; margin-right: 12px; }
 .hero-description { font-size: 16px; max-width: 42ch; color: var(--muted); margin-bottom: 28px; }
+.photo-credit { display: block; margin-top: 8px; font-size: 11px; line-height: 1.5; color: var(--muted); }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 26px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 50px; background: var(--olive); color: white; text-decoration: none; font: 14px var(--sans); padding: 15px 25px; border: 1px solid transparent; border-radius: 2px; cursor: pointer; }
 .button:hover { background: #414731; }
@@ -89,7 +90,7 @@ nav a:hover, .text-link:hover { color: var(--olive); text-decoration: underline;
 .method-foot p { font-size: 13px; color: var(--muted); max-width: 56ch; margin-bottom: 0; }
 .method-foot a { flex-shrink: 0; }
 .about { display: grid; grid-template-columns: .93fr 1fr; align-items: center; gap: 8vw; }
-.about-photo img { aspect-ratio: 4 / 5; object-fit: cover; object-position: 62% 50%; border-radius: 2px; }
+.about-photo img { width: 100%; height: auto; border-radius: 2px; }
 .formation { border-top: 1px solid var(--line); margin-top: 26px; padding-top: 24px; }
 .formation h3 { font-size: 23px; }
 .formation p { font-size: 14px; color: var(--muted); max-width: 52ch; }
@@ -182,7 +183,6 @@ summary::-webkit-details-marker { display: none; }
   .practice-image img { aspect-ratio: 1.25; object-position: center; }
   .practice-image figcaption { position: static; font-size: 25px; padding: 18px 0 0; background: transparent; white-space: normal; }
   .method-foot { align-items: flex-start; flex-direction: column; gap: 10px; margin-top: 18px; }
-  .about-photo img { aspect-ratio: 1.05; object-position: 62% 44%; }
   .about-copy .about-note { font-size: 25px; }
   .process-heading { gap: 22px; }
   .process-heading > p { margin-bottom: 0; }

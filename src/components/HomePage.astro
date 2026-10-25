@@ -27,6 +27,7 @@ const phone = contact.phone.trim();
       <figure class="hero-photo">
         <ResponsiveImage src={home.heroImage} alt={home.heroImageAlt} sizes="(max-width: 700px) 89vw, 46vw" priority />
         <figcaption>{home.heroCaption}</figcaption>
+        <small class="photo-credit">{home.photoCredit}</small>
       </figure>
       <div class="hero-foot"><span>{home.heroFootnote}</span><a href="#sesiones">{ui.explore} <span aria-hidden="true">↓</span></a></div>
     </section>
@@ -50,7 +51,7 @@ const phone = contact.phone.trim();
         <div class="method-intro"><p>{home.methodDescription}</p><p>{home.methodSummary}</p></div>
       </div>
       <div class="pillars">{home.pillars.map(pillar => <article><span class="pillar-mark" aria-hidden="true"></span><h3>{pillar.title}</h3><p>{pillar.text}</p></article>)}</div>
-      <figure class="practice-image"><ResponsiveImage src={home.practiceImage} alt={home.practiceImageAlt} sizes="(max-width: 700px) 88vw, 84vw" /><figcaption>{home.practiceCaption}</figcaption></figure>
+      <figure class="practice-image"><ResponsiveImage src={home.practiceImage} alt={home.practiceImageAlt} sizes="(max-width: 700px) 88vw, 84vw" /><figcaption>{home.practiceCaption}</figcaption><small class="photo-credit">{home.photoCredit}</small></figure>
       <div class="method-foot"><p>{home.sessionApproachDescription}</p><a class="text-link" href="#sesiones">{ui.methodCta}</a></div>
     </section>
 

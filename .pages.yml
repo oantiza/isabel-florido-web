@@ -27,6 +27,10 @@ content:
         label: Pie de foto principal
         type: string
         required: true
+      - name: photoCredit
+        label: Autoría de las dos primeras fotografías
+        type: string
+        required: true
       - name: heroFootnote
         label: Nota al pie de portada
         type: text
