@@ -1,0 +1,115 @@
+media:
+  input: public/images
+  output: /images
+  categories: [image]
+content:
+  - name: home-es
+    label: Portada en español
+    type: file
+    path: src/data/home.es.json
+    format: json
+    fields:
+      - name: heroIntro
+        label: Hero intro
+        type: string
+      - name: heroTitle
+        label: Hero title
+        type: text
+      - name: heroDescription
+        label: Hero description
+        type: text
+      - name: heroCaption
+        label: Hero caption
+        type: string
+      - name: heroFootnote
+        label: Hero footnote
+        type: string
+      - name: portraitCaption
+        label: Portrait caption
+        type: string
+      - name: aboutTitle
+        label: About title
+        type: text
+      - name: aboutIntroduction
+        label: About introduction
+        type: text
+      - name: aboutBiography
+        label: About biography
+        type: text
+      - name: aboutNote
+        label: About note
+        type: text
+      - name: methodTitle
+        label: Method title
+        type: text
+      - name: methodDescription
+        label: Method description
+        type: text
+      - name: methodSummary
+        label: Method summary
+        type: string
+      - name: practiceCaption
+        label: Practice caption
+        type: text
+      - name: sessionsTitle
+        label: Sessions title
+        type: text
+      - name: sessionsDescription
+        label: Sessions description
+        type: text
+      - name: sessionModalityTitle
+        label: Session modality title
+        type: string
+      - name: sessionModalityDescription
+        label: Session modality description
+        type: string
+      - name: sessionLanguagesTitle
+        label: Session languages title
+        type: string
+      - name: sessionLanguagesDescription
+        label: Session languages description
+        type: string
+      - name: sessionApproachTitle
+        label: Session approach title
+        type: string
+      - name: sessionApproachDescription
+        label: Session approach description
+        type: string
+      - name: contactTitle
+        label: Contact title
+        type: text
+      - name: contactDescription
+        label: Contact description
+        type: string
+      - name: contactPending
+        label: Contact pending
+        type: string
+      - name: heroImage
+        label: Hero image
+        type: image
+      - name: heroImageAlt
+        label: Hero image alt
+        type: string
+      - name: portraitImage
+        label: Portrait image
+        type: image
+      - name: portraitImageAlt
+        label: Portrait image alt
+        type: string
+      - name: practiceImage
+        label: Practice image
+        type: image
+      - name: practiceImageAlt
+        label: Practice image alt
+        type: string
+      - name: pillars
+        label: Pilares del método
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Descripción
+            type: text

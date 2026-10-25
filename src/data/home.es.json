@@ -1,0 +1,47 @@
+{
+  "heroIntro": "Una práctica que parte de ti",
+  "heroTitle": "Conecta con\ntu cuerpo.\nHabita tu presente.",
+  "heroDescription": "Movimiento, respiración y atención adaptados a ti. Un acompañamiento personal desde la escucha y la conciencia.",
+  "heroCaption": "El cuerpo como punto de encuentro.",
+  "heroFootnote": "Un espacio para escucharte.",
+  "portraitCaption": "Isabel Florido · Enseñar, investigar, acompañar.",
+  "aboutTitle": "Una vida dedicada\na enseñar.",
+  "aboutIntroduction": "La transmisión del conocimiento y la curiosidad por aprender atraviesan toda mi trayectoria. Hoy, esa misma vocación da forma a una práctica que reúne cuerpo, mente y movimiento.",
+  "aboutBiography": "Durante casi veinte años ejercí como docente en la Facultad de Traducción e Interpretación de la Universidad de Las Palmas de Gran Canaria. Mi formación y práctica abarcan Yoga, Yin Yoga, Pilates clásico, anatomía, biomecánica, mindfulness y meditación.",
+  "aboutNote": "Cada persona tiene su ritmo.\nCada momento, sus necesidades.",
+  "methodTitle": "Mente y cuerpo.\nUna misma práctica.",
+  "methodDescription": "Mind & Body Medicine es el nombre de mi propuesta de entrenamiento integral: una práctica inteligente, amable y coherente con lo que necesitas hoy.",
+  "methodSummary": "Una metodología de movimiento y atención, adaptada a cada persona.",
+  "practiceCaption": "Escucha.\nRespira.\nMuévete.",
+  "sessionsTitle": "Tu práctica.\nTu punto de partida.",
+  "sessionsDescription": "Comenzamos con una conversación, un análisis de tus necesidades y una observación postural y funcional. A partir de ahí, diseñamos una práctica personal que se ajusta contigo.",
+  "sessionModalityTitle": "Presencial u online",
+  "sessionModalityDescription": "Dos formas de encontrarnos, con el mismo enfoque individual y consciente.",
+  "sessionLanguagesTitle": "En tu idioma",
+  "sessionLanguagesDescription": "Sesiones en español, inglés y francés.",
+  "sessionApproachTitle": "Adaptada a tu presente",
+  "sessionApproachDescription": "Respiración, movilidad, fuerza, equilibrio y atención, según tus necesidades.",
+  "contactTitle": "Empezamos por\nescucharte.",
+  "contactDescription": "El primer paso es conocernos y comprender qué necesitas para construir tu práctica.",
+  "contactPending": "Las vías de contacto y la disponibilidad se incorporarán tras su confirmación.",
+  "heroImage": "/images/isabel-brazos-abiertos.webp",
+  "heroImageAlt": "Isabel, de espaldas y con los brazos abiertos, ante un muro de azulejos",
+  "portraitImage": "/images/isabel-retrato.webp",
+  "portraitImageAlt": "Isabel Florido sentada sobre una esterilla en un jardín",
+  "practiceImage": "/images/isabel-practica.webp",
+  "practiceImageAlt": "Isabel realiza una flexión de pie con las piernas abiertas durante su práctica de yoga",
+  "pillars": [
+    {
+      "title": "Conciencia corporal",
+      "text": "Escuchar el cuerpo y explorar el movimiento desde tus posibilidades actuales."
+    },
+    {
+      "title": "Atención mental",
+      "text": "Dar espacio a la respiración, la concentración y la presencia durante la práctica."
+    },
+    {
+      "title": "Coordinación y memoria",
+      "text": "Integrar atención y movimiento mediante el equilibrio, el ritmo y el control motor."
+    }
+  ]
+}
