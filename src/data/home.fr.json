@@ -1,27 +1,27 @@
 {
   "heroIntro": "Mind & Body Medicine avec Isabel Florido",
-  "heroTitle": "« Prends soin de ton corps\npour que ton Âme\nait envie d’y habiter »",
+  "heroTitle": "« Prends soin de ton corps pour que ton Âme ait envie d’y habiter »",
   "heroAttribution": "Sainte Thérèse d’Avila",
   "heroDescription": "Pédagogie du mouvement conscient et intelligent.\n\nApprends à vivre en harmonie dans ton corps et ton esprit, en développant la pleine conscience.",
   "heroCaption": "",
   "photoCredit": "Photographie : Sonsoles León",
   "heroFootnote": "",
   "portraitCaption": "Isabel Florido · Enseigner, explorer, accompagner.",
-  "aboutTitle": "Une vie consacrée\nà l’enseignement.",
+  "aboutTitle": "Une vie consacrée à l’enseignement.",
   "aboutIntroduction": "La transmission des connaissances et la curiosité d’apprendre traversent tout mon parcours. Aujourd’hui, cette même vocation nourrit une pratique qui réunit le corps, l’esprit et le mouvement.",
   "aboutBiography": "Pendant près de vingt ans, j’ai enseigné à la Faculté de traduction et d’interprétation de l’Université de Las Palmas de Gran Canaria. J’ai étudié, vécu et travaillé dans différents pays. Cette expérience et mon intérêt pour la méthodologie sont au cœur de ma façon d’accompagner.",
   "aboutNote": "Chaque personne a son rythme.\nChaque moment, ses besoins.",
-  "methodTitle": "L’esprit et le corps.\nUne même pratique.",
+  "methodTitle": "L’esprit et le corps. Une même pratique.",
   "methodDescription": "Mind & Body Medicine est le nom de mon approche d’entraînement global et personnalisé. Elle réunit la conscience corporelle, l’attention mentale et des exercices de coordination et de mémoire dans une même pratique.",
   "methodSummary": "La respiration, la mobilité, la force, la souplesse et l’équilibre se travaillent avec la concentration, le rythme et le contrôle du mouvement. La pratique part de ta situation actuelle et s’y adapte.",
   "practiceCaption": "Écoute.\nRespire.\nBouge.",
-  "sessionsTitle": "Ta pratique.\nTon point de départ.",
+  "sessionsTitle": "Ta pratique. Ton point de départ.",
   "sessionsDescription": "Une approche d’entraînement personnalisé qui associe les outils de ma formation selon tes besoins. Le point de départ est ta situation actuelle, avec une observation posturale et une analyse individuelle de tes besoins avant de concevoir la pratique.",
   "sessionLanguagesTitle": "Dans ta langue",
   "sessionLanguagesDescription": "Séances en espagnol, en anglais et en français.",
   "sessionApproachTitle": "Adaptée à ton présent",
   "sessionApproachDescription": "Respiration, mobilité, force, équilibre et attention, selon tes besoins.",
-  "contactTitle": "Commençons\npar t’écouter.",
+  "contactTitle": "Commençons par t’écouter.",
   "contactDescription": "La première étape consiste à faire connaissance et à comprendre tes besoins pour construire ta pratique.",
   "contactPending": "Ce formulaire est une maquette. L’envoi sera activé lorsque les coordonnées d’Isabel seront confirmées.",
   "heroImage": "/images/isabel-brazos-abiertos.webp",
@@ -57,7 +57,7 @@
     "modalitiesTitle": "Deux façons de nous retrouver",
     "modalityNote": "Les disponibilités, le lieu des séances en présentiel et les conditions seront confirmés directement avec Isabel.",
     "processLabel": "Comment commencer",
-    "processTitle": "Ta pratique commence\npar faire connaissance.",
+    "processTitle": "Ta pratique commence par faire connaissance.",
     "processDescription": "Avant de proposer des exercices, la méthode commence par une observation posturale et une analyse de tes besoins.",
     "faqTitle": "Avant de faire le premier pas",
     "contactName": "Ton nom",
@@ -73,23 +73,61 @@
     "footerNote": "Une pratique personnelle."
   },
   "modalities": [
-    { "title": "Séances en présentiel", "text": "Une rencontre pour travailler ensemble la respiration, le mouvement et l’attention à partir de tes possibilités actuelles.", "detail": "Le lieu sera confirmé avec Isabel." },
-    { "title": "Séances en ligne", "text": "Les séances en ligne permettent de pratiquer à distance, avec la même approche d’entraînement personnalisé.", "detail": "Disponibles en espagnol, en anglais et en français." }
+    {
+      "title": "Séances en présentiel",
+      "text": "Une rencontre pour travailler ensemble la respiration, le mouvement et l’attention à partir de tes possibilités actuelles.",
+      "detail": "Le lieu sera confirmé avec Isabel."
+    },
+    {
+      "title": "Séances en ligne",
+      "text": "Les séances en ligne permettent de pratiquer à distance, avec la même approche d’entraînement personnalisé.",
+      "detail": "Disponibles en espagnol, en anglais et en français."
+    }
   ],
   "steps": [
-    { "title": "Comprendre tes besoins", "text": "Partager ton point de départ et ce que tu souhaites travailler en ce moment." },
-    { "title": "Observer tes mouvements", "text": "Une première observation posturale et une analyse individuelle permettent d’orienter l’entraînement." },
-    { "title": "Concevoir ta pratique", "text": "Construire ensemble un entraînement personnel, adapté à ta situation actuelle." }
+    {
+      "title": "Comprendre tes besoins",
+      "text": "Partager ton point de départ et ce que tu souhaites travailler en ce moment."
+    },
+    {
+      "title": "Observer tes mouvements",
+      "text": "Une première observation posturale et une analyse individuelle permettent d’orienter l’entraînement."
+    },
+    {
+      "title": "Concevoir ta pratique",
+      "text": "Construire ensemble un entraînement personnel, adapté à ta situation actuelle."
+    }
   ],
   "faqs": [
-    { "question": "Que travaille-t-on pendant les séances ?", "answer": "L’approche associe capacités corporelles et attention : respiration, mobilité, force, souplesse, équilibre, coordination, mémoire et concentration. Le choix des exercices dépend des besoins de chaque personne." },
-    { "question": "Dans quelles langues puis-je pratiquer ?", "answer": "Les séances peuvent se dérouler en espagnol, en anglais et en français, en présentiel comme en ligne." },
-    { "question": "Comment choisit-on par où commencer ?", "answer": "La méthode commence par une observation posturale et une analyse individuelle des besoins. Ces informations permettent ensuite de concevoir l’entraînement personnel." },
-    { "question": "Comment connaître les disponibilités et les conditions ?", "answer": "Tu peux contacter Isabel par e-mail ou par téléphone pour connaître les disponibilités, le lieu des séances en présentiel, la durée et les tarifs." }
+    {
+      "question": "Que travaille-t-on pendant les séances ?",
+      "answer": "L’approche associe capacités corporelles et attention : respiration, mobilité, force, souplesse, équilibre, coordination, mémoire et concentration. Le choix des exercices dépend des besoins de chaque personne."
+    },
+    {
+      "question": "Dans quelles langues puis-je pratiquer ?",
+      "answer": "Les séances peuvent se dérouler en espagnol, en anglais et en français, en présentiel comme en ligne."
+    },
+    {
+      "question": "Comment choisit-on par où commencer ?",
+      "answer": "La méthode commence par une observation posturale et une analyse individuelle des besoins. Ces informations permettent ensuite de concevoir l’entraînement personnel."
+    },
+    {
+      "question": "Comment connaître les disponibilités et les conditions ?",
+      "answer": "Tu peux contacter Isabel par e-mail ou par téléphone pour connaître les disponibilités, le lieu des séances en présentiel, la durée et les tarifs."
+    }
   ],
   "pillars": [
-    { "title": "Conscience corporelle", "text": "Écouter ton corps et explorer le mouvement à partir de tes possibilités actuelles." },
-    { "title": "Attention mentale", "text": "Faire place à la respiration, à la concentration et à la présence pendant la pratique." },
-    { "title": "Coordination et mémoire", "text": "Associer attention et mouvement grâce à l’équilibre, au rythme et au contrôle moteur." }
+    {
+      "title": "Conscience corporelle",
+      "text": "Écouter ton corps et explorer le mouvement à partir de tes possibilités actuelles."
+    },
+    {
+      "title": "Attention mentale",
+      "text": "Faire place à la respiration, à la concentration et à la présence pendant la pratique."
+    },
+    {
+      "title": "Coordination et mémoire",
+      "text": "Associer attention et mouvement grâce à l’équilibre, au rythme et au contrôle moteur."
+    }
   ]
 }

@@ -1,27 +1,27 @@
 {
   "heroIntro": "Mind & Body Medicine with Isabel Florido",
-  "heroTitle": "“Care for your body\nso that your Soul\nwants to dwell in it”",
+  "heroTitle": "“Care for your body so that your Soul wants to dwell in it”",
   "heroAttribution": "Saint Teresa of Ávila",
   "heroDescription": "The art of teaching conscious, intelligent movement.\n\nLearn to live in harmony in body and mind, cultivating mindful awareness.",
   "heroCaption": "",
   "photoCredit": "Photography: Sonsoles León",
   "heroFootnote": "",
   "portraitCaption": "Isabel Florido · Teaching, exploring, supporting.",
-  "aboutTitle": "A life dedicated\nto teaching.",
+  "aboutTitle": "A life dedicated to teaching.",
   "aboutIntroduction": "Sharing knowledge and a curiosity for learning have shaped my entire journey. Today, that same calling informs a practice that brings together body, mind and movement.",
   "aboutBiography": "For almost twenty years, I taught at the Faculty of Translation and Interpreting at the University of Las Palmas de Gran Canaria. I have studied, lived and worked in different countries. That experience, together with my interest in methodology, is at the heart of how I support others.",
   "aboutNote": "Each person has their own rhythm.\nEach moment, its own needs.",
-  "methodTitle": "Mind and body.\nOne shared practice.",
+  "methodTitle": "Mind and body. One shared practice.",
   "methodDescription": "Mind & Body Medicine is the name of my approach to holistic personal training. It brings body awareness, mental focus, coordination and memory exercises together in one practice.",
   "methodSummary": "Breathing, mobility, strength, flexibility and balance are explored alongside concentration, rhythm and movement control. The practice starts from where you are today and adapts to you.",
   "practiceCaption": "Listen.\nBreathe.\nMove.",
-  "sessionsTitle": "Your practice.\nYour starting point.",
+  "sessionsTitle": "Your practice. Your starting point.",
   "sessionsDescription": "A personal training approach that combines the tools from my training according to your needs. We start from where you are today, with postural observation and an individual assessment of your needs before designing your practice.",
   "sessionLanguagesTitle": "In your language",
   "sessionLanguagesDescription": "Sessions in Spanish, English and French.",
   "sessionApproachTitle": "Adapted to where you are today",
   "sessionApproachDescription": "Breathing, mobility, strength, balance and awareness, according to your needs.",
-  "contactTitle": "We begin\nby listening.",
+  "contactTitle": "We begin by listening.",
   "contactDescription": "The first step is to get to know each other and understand what you need to build your practice.",
   "contactPending": "This form is a preview. Sending will be enabled once Isabel’s contact details are confirmed.",
   "heroImage": "/images/isabel-brazos-abiertos.webp",
@@ -57,7 +57,7 @@
     "modalitiesTitle": "Two ways to meet",
     "modalityNote": "Availability, the location of in-person sessions and arrangements will be confirmed directly with Isabel.",
     "processLabel": "How to begin",
-    "processTitle": "Your practice begins\nwith getting to know you.",
+    "processTitle": "Your practice begins with getting to know you.",
     "processDescription": "Before suggesting exercises, the method starts with postural observation and an assessment of your needs.",
     "faqTitle": "Before taking the first step",
     "contactName": "Your name",
@@ -73,23 +73,61 @@
     "footerNote": "A personal practice."
   },
   "modalities": [
-    { "title": "In-person sessions", "text": "An opportunity to work together on breathing, movement and awareness, starting from your current abilities.", "detail": "The location will be confirmed with Isabel." },
-    { "title": "Online sessions", "text": "Online sessions allow you to practise remotely, with the same personalised approach to training.", "detail": "Available in Spanish, English and French." }
+    {
+      "title": "In-person sessions",
+      "text": "An opportunity to work together on breathing, movement and awareness, starting from your current abilities.",
+      "detail": "The location will be confirmed with Isabel."
+    },
+    {
+      "title": "Online sessions",
+      "text": "Online sessions allow you to practise remotely, with the same personalised approach to training.",
+      "detail": "Available in Spanish, English and French."
+    }
   ],
   "steps": [
-    { "title": "Understand your needs", "text": "Share your starting point and what you need to work on at this moment." },
-    { "title": "Observe how you move", "text": "Initial postural observation and an individual assessment help guide the training." },
-    { "title": "Design your practice", "text": "Together, we build a personal training practice adapted to where you are today." }
+    {
+      "title": "Understand your needs",
+      "text": "Share your starting point and what you need to work on at this moment."
+    },
+    {
+      "title": "Observe how you move",
+      "text": "Initial postural observation and an individual assessment help guide the training."
+    },
+    {
+      "title": "Design your practice",
+      "text": "Together, we build a personal training practice adapted to where you are today."
+    }
   ],
   "faqs": [
-    { "question": "What do the sessions focus on?", "answer": "The approach brings together physical skills and attention: breathing, mobility, strength, flexibility, balance, coordination, memory and concentration. Exercises are selected according to each person’s needs." },
-    { "question": "Which languages are available?", "answer": "Sessions are available in Spanish, English and French, both in person and online." },
-    { "question": "How do we decide where to begin?", "answer": "The method starts with initial postural observation and an individual assessment of your needs. This information is used to design your personal training practice." },
-    { "question": "How can I ask about availability and arrangements?", "answer": "You can contact Isabel by email or phone to ask about availability, the location of in-person sessions, duration and prices." }
+    {
+      "question": "What do the sessions focus on?",
+      "answer": "The approach brings together physical skills and attention: breathing, mobility, strength, flexibility, balance, coordination, memory and concentration. Exercises are selected according to each person’s needs."
+    },
+    {
+      "question": "Which languages are available?",
+      "answer": "Sessions are available in Spanish, English and French, both in person and online."
+    },
+    {
+      "question": "How do we decide where to begin?",
+      "answer": "The method starts with initial postural observation and an individual assessment of your needs. This information is used to design your personal training practice."
+    },
+    {
+      "question": "How can I ask about availability and arrangements?",
+      "answer": "You can contact Isabel by email or phone to ask about availability, the location of in-person sessions, duration and prices."
+    }
   ],
   "pillars": [
-    { "title": "Body awareness", "text": "Listen to your body and explore movement within your current abilities." },
-    { "title": "Mental focus", "text": "Make space for breathing, concentration and presence during practice." },
-    { "title": "Coordination and memory", "text": "Bring attention and movement together through balance, rhythm and motor control." }
+    {
+      "title": "Body awareness",
+      "text": "Listen to your body and explore movement within your current abilities."
+    },
+    {
+      "title": "Mental focus",
+      "text": "Make space for breathing, concentration and presence during practice."
+    },
+    {
+      "title": "Coordination and memory",
+      "text": "Bring attention and movement together through balance, rhythm and motor control."
+    }
   ]
 }
