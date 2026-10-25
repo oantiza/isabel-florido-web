@@ -30,7 +30,7 @@ content:
       - name: heroCaption
         label: Pie de foto principal
         type: string
-        required: true
+        required: false
       - name: photoCredit
         label: Autoría de las dos primeras fotografías
         type: string

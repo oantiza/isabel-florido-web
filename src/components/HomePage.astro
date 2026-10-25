@@ -27,7 +27,7 @@ const phone = contact.phone.trim();
       </div>
       <figure class="hero-photo">
         <ResponsiveImage src={home.heroImage} alt={home.heroImageAlt} sizes="(max-width: 700px) 89vw, 46vw" priority />
-        <figcaption>{home.heroCaption}</figcaption>
+        {home.heroCaption && <figcaption>{home.heroCaption}</figcaption>}
         <small class="photo-credit">{home.photoCredit}</small>
       </figure>
       <div class="hero-foot"><span>{home.heroFootnote}</span><a href="#sesiones">{ui.explore} <span aria-hidden="true">↓</span></a></div>
