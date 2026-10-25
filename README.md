@@ -1,6 +1,6 @@
 # Isabel Florido · web
 
-Portada en Astro, TypeScript y CSS propio. Evolución de la propuesta existente, sin sustituir el proyecto ni añadir dependencias. Rama de esta revisión: `codex/portada-profesional`.
+Portada en Astro, TypeScript y CSS propio. Evolución de la propuesta existente, sin sustituir el proyecto ni añadir dependencias. Esta revisión está fusionada en `main`.
 
 ## Desarrollo y comprobación
 
