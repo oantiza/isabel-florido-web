@@ -12,7 +12,7 @@ npm run build
 npm run preview
 ```
 
-Definir `ASTRO_TELEMETRY_DISABLED=1` en entornos que restringen el directorio de configuración de Astro. La salida estática se genera en `dist/`. No hay despliegue automático configurado en esta revisión.
+Definir `ASTRO_TELEMETRY_DISABLED=1` en entornos que restringen el directorio de configuración de Astro. La salida estática se genera en `dist/`. La publicación en GitHub Pages se activa manualmente desde GitHub Actions. Los cambios de contenido o los pushes no publican automáticamente.
 
 ## Qué se ha conservado
 
@@ -72,7 +72,7 @@ No se han añadido titulaciones, testimonios, horarios, precios ni resultados cl
 
 La configuración sigue la [documentación de campos de Pages CMS](https://pagescms.org/docs/configuration/content/fields/). Todos los campos del JSON visible tienen correspondencia en el editor, incluidos textos de botones, imágenes, descripciones accesibles, modalidades, pasos y preguntas.
 
-1. Conectar Pages CMS al repositorio privado cuando Isabel disponga de acceso.
+1. Conectar Pages CMS a este repositorio público cuando Isabel disponga de acceso.
 2. Trabajar sobre una rama de revisión, sin automatizar publicación en producción.
 3. Editar «Portada en español». Para las fotos, utilizar el selector de imágenes y completar su descripción accesible.
 4. Ejecutar comprobación y build, revisar en móvil y ordenador, y solicitar aprobación antes de publicar.
@@ -98,7 +98,7 @@ Para activar un idioma:
 ## Validación de esta entrega
 
 - `npm run check`: 0 errores, 0 avisos.
-- `npm run build`: compilación estática correcta, también probada con la ruta base de GitHub Pages, sin desplegar.
+- `npm run build`: compilación estática correcta, también probada con la ruta base de GitHub Pages.
 - Revisión visual en escritorio (1440 px) y móvil (390 y 320 px); comprobación de ausencia de desbordamientos entre 320 y 1920 px.
 - Verificados menú móvil, cierre con Escape, navegación por teclado, salto al contenido, preguntas desplegables y preferencia de movimiento reducido.
 - Verificados enlaces internos, carga de las tres fotografías y existencia de recursos y variantes adaptables; sin errores de ejecución en la revisión final.
@@ -116,14 +116,16 @@ Para activar un idioma:
 - Dominio, alojamiento definitivo, metadatos sociales completos e indexación tras aprobación.
 - Lecturas o reflexiones cuando existan textos facilitados por Isabel.
 
-## Vista previa pública anterior
+## Repositorio único y publicación
 
-- Proyecto privado: https://github.com/oantiza/isabel-florido-web
-- Copia compilada pública: https://github.com/oantiza/isabel-florido-preview
-- Referencia: https://oantiza.github.io/isabel-florido-preview/
+- Repositorio público de trabajo: https://github.com/oantiza/isabel-florido-web
+- Web: https://oantiza.github.io/isabel-florido-web/
+- Publicación manual: https://github.com/oantiza/isabel-florido-web/actions/workflows/deploy.yml
 
-La revisión actual **no se ha publicado**. El alojamiento definitivo en Cloudflare Pages continúa pendiente de la cuenta de Isabel. La salida raíz se genera con `npm run build`.
+Por petición del usuario, todo el código, los contenidos y la publicación se concentran en este repositorio. No se utiliza una copia compilada en otro repositorio.
 
-El script `npm run build:pages` prepara una copia compilada en `.deploy/github-pages/` con la ruta base `/isabel-florido-preview/`. Incluye los recursos referenciados y todas las variantes de `srcset`, sin copiar componentes, configuración CMS ni documentos originales. No realiza commit ni push. Actualmente este empaquetado corresponde a la portada española; al activar traducciones deberá ampliarse para incluir sus páginas y enlaces.
+`npm run build:pages` compila en `dist/` con la ruta base `/isabel-florido-web/`. No copia archivos a otro checkout ni realiza commits o pushes. El workflow oficial de Astro compila, comprueba y publica la salida estática completa, incluidas las futuras rutas traducidas.
 
-Cualquier publicación o fusión requiere autorización expresa del usuario.
+Para publicar una versión autorizada: guardar los cambios en la rama aprobada y ejecutar **Publish website → Run workflow** desde GitHub Actions. Para la web pública habitual, seleccionar `main`. La publicación es manual; no se activa al editar contenidos ni al hacer push.
+
+La revisión sigue marcada como propuesta y conserva `noindex, nofollow`. El contacto permanece como maqueta sin envío. El lanzamiento definitivo y cualquier fusión siguen sujetos a autorización expresa.
