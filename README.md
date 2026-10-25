@@ -34,7 +34,7 @@ La redacción en primera persona es una adaptación editorial para revisar con I
 
 Esta entrega se limita a la portada. La navegación conduce a secciones reales de la misma página. Pendientes de confirmación: contacto, disponibilidad, ciudad, duración, precios y acreditaciones. No hay un formulario que aparente enviar mensajes, reservas ni enlaces a páginas inexistentes. Lecturas y reflexiones se desarrollarán tras revisar la portada y contar con sus textos.
 
-La versión de revisión conserva `noindex, nofollow` y no se ha publicado en Internet.
+La versión de revisión conserva `noindex, nofollow`. La copia pública se sirve con GitHub Pages; el proyecto de desarrollo permanece privado.
 
 ## Preparación para siguientes fases
 
@@ -42,5 +42,27 @@ Los contenidos editoriales y las rutas de las imágenes están en `src/data/home
 
 `src/data/locales.ts` declara español, inglés y francés. Por ahora solo se publica la portada en español; las traducciones y sus rutas quedan para la siguiente fase. No se muestra un selector de idioma sin traducciones disponibles.
 
-Las instrucciones del proyecto se consultaron también en sus Ajustes: Astro/TypeScript/CSS, estética mediterránea con marfil, arena, salvia y terracota, contenidos editables y revisión antes de publicar. La configuración estática actual es apta para preparar el despliegue futuro en Cloudflare Pages (`npm run build`, salida `dist`). El código está subido al repositorio privado de GitHub. La publicación en Cloudflare Pages queda pendiente de autorización de la cuenta.
+Las instrucciones del proyecto se consultaron también en sus Ajustes: Astro/TypeScript/CSS, estética mediterránea con marfil, arena, salvia y terracota, contenidos editables y revisión antes de publicar. La configuración estática actual es apta para preparar el despliegue futuro en Cloudflare Pages (`npm run build`, salida `dist`). El código está subido al repositorio privado de GitHub. El alojamiento definitivo en Cloudflare Pages queda pendiente de que Isabel cree su propia cuenta.
 
+
+## Vista previa en GitHub Pages
+
+- Proyecto y contenidos editables (privado): https://github.com/oantiza/isabel-florido-web
+- Copia compilada (público): https://github.com/oantiza/isabel-florido-preview
+- Web de revisión: https://oantiza.github.io/isabel-florido-preview/
+
+El plan actual de GitHub no permite activar Pages en el repositorio privado. Con autorización expresa del usuario se publica una copia separada que contiene únicamente el HTML, CSS, favicon y las tres fotografías WebP visibles. No incluye componentes Astro, configuración del CMS, documentos originales ni historial del proyecto privado.
+
+Para actualizar la copia pública desde este equipo:
+
+```sh
+npm run check
+npm run build:pages
+git -C .deploy/github-pages add index.html favicon.svg images _astro .nojekyll
+git -C .deploy/github-pages commit -m "Update homepage preview"
+git -C .deploy/github-pages push
+```
+
+`build:pages` compila con la ruta base `/isabel-florido-preview/`, comprueba los enlaces internos y prepara los archivos públicos en `.deploy/github-pages/`. Esta carpeta se excluye del repositorio privado. En otro equipo, clonar primero el repositorio público en esa ruta antes de preparar la copia.
+
+GitHub Pages publica desde `main` y la raíz del repositorio público, con HTTPS. Los cambios en el repositorio privado no se publican automáticamente: se debe actualizar la copia compilada. `npm run build` sigue generando la web con ruta raíz para el desarrollo y el futuro alojamiento en Cloudflare.
