@@ -38,8 +38,9 @@ La versión de revisión conserva `noindex, nofollow` y no se ha publicado en In
 
 ## Preparación para siguientes fases
 
-Los contenidos editoriales y las rutas de las imágenes están en `src/data/home.es.json`, separados de los componentes. `.pages.yml` prepara su edición con Pages CMS de acuerdo con su documentación oficial (https://pagescms.org/docs/configuration/content/). La conexión real requiere el repositorio privado de GitHub; aún no se ha creado ni conectado. Las fotografías se sirven en WebP, con dimensiones explícitas y carga diferida fuera de la portada.
+Los contenidos editoriales y las rutas de las imágenes están en `src/data/home.es.json`, separados de los componentes. `.pages.yml` prepara su edición con Pages CMS de acuerdo con su documentación oficial (https://pagescms.org/docs/configuration/content/). Repositorio privado creado: https://github.com/oantiza/isabel-florido-web. La conexión de Pages CMS queda pendiente. Las fotografías se sirven en WebP, con dimensiones explícitas y carga diferida fuera de la portada.
 
 `src/data/locales.ts` declara español, inglés y francés. Por ahora solo se publica la portada en español; las traducciones y sus rutas quedan para la siguiente fase. No se muestra un selector de idioma sin traducciones disponibles.
 
-Las instrucciones del proyecto se consultaron también en sus Ajustes: Astro/TypeScript/CSS, estética mediterránea con marfil, arena, salvia y terracota, contenidos editables y revisión antes de publicar. La configuración estática actual es apta para preparar el despliegue futuro en Cloudflare Pages (`npm run build`, salida `dist`). No se ha desplegado ni conectado ningún servicio externo.
+Las instrucciones del proyecto se consultaron también en sus Ajustes: Astro/TypeScript/CSS, estética mediterránea con marfil, arena, salvia y terracota, contenidos editables y revisión antes de publicar. La configuración estática actual es apta para preparar el despliegue futuro en Cloudflare Pages (`npm run build`, salida `dist`). El código está subido al repositorio privado de GitHub. La publicación en Cloudflare Pages queda pendiente de autorización de la cuenta.
+
